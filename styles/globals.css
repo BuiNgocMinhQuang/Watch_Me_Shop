@@ -647,25 +647,26 @@ span.text-red {
   margin-top: 10px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .hero-banner-container {
-    height: 560px;
+    height: 450px;
   }
+
   .hero-banner-image {
-    width: 77%;
-    height: 62%;
-    top: -2%;
-    right: -6%;
+    width: 60%;
+    height: 50%;
+    top: 12%;
+    right: 0%;
   }
   .footer-banner-container {
     height: 560px;
     margin-top: 80px;
   }
   .footer-banner-image {
-    width: 77%;
-    left: 30%;
-    top: 6%;
-    height: 56%;
+    width: 65%;
+    left: 42%;
+    top: 7%;
+    height: 50%;
   }
   .banner-desc .left h3 {
     font-weight: 900;
@@ -673,6 +674,7 @@ span.text-red {
     margin-left: 5px;
     color: #000;
   }
+
   .banner-desc .left p {
     margin: 18px;
     color: #000;
@@ -682,6 +684,7 @@ span.text-red {
   }
   .banner-desc .right p {
     font-size: 18px;
+    display: none;
   }
   .banner-desc .right .company-desc {
     font-size: 14px;
@@ -704,7 +707,163 @@ span.text-red {
     z-index: 10000;
   }
   .desc {
-    bottom: 60px;
+    bottom: 15%;
+  }
+  .product-detail-container {
+    flex-wrap: wrap;
+  }
+  .product-detail-container .product-detail-image {
+    width: 350px;
+    height: 350px;
+  }
+  .cart-container {
+    width: 415px;
+    padding: 4px;
+  }
+  .cart-heading {
+    margin-top: 35px;
+  }
+  .product-container {
+    margin-top: 10px;
+  }
+  .product {
+    padding: 20px 5px;
+  }
+  .product .cart-product-image {
+    width: 25%;
+    height: 25%;
+  }
+  .buttons .add-to-cart {
+    width: 150px;
+  }
+  .buttons .buy-now {
+    width: 150px;
+  }
+  .product-detail-container {
+    margin: 20px;
+  }
+
+  .item-desc .flex {
+    width: 200px;
+  }
+  .top {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .item-desc .bottom {
+    margin-top: 30px;
+  }
+  .flex h5 {
+    font-size: 16px;
+    color: #324d67;
+  }
+  .flex h4 {
+    font-size: 16px;
+    color: black;
+  }
+  .cart-bottom {
+    padding: 30px;
+  }
+
+  .total h3 {
+    font-size: 20px;
+  }
+  .track {
+    animation: marquee 10s linear infinite;
+    width: 550%;
+  }
+  .success-wrapper,
+  .cancel-wrapper {
+    min-height: 69vh;
+  }
+  .success,
+  .cancel {
+    width: 370px;
+    margin-top: 100px;
+    padding: 20px;
+  }
+  .success {
+    height: 350px;
+  }
+  .success h2 {
+    font-size: 17px;
+  }
+  .btn-container {
+    width: 300px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 640px) {
+  .hero-banner-container {
+    height: 400px;
+  }
+
+  .hero-banner-image {
+    width: 52%;
+    height: 30%;
+    top: 23%;
+    right: 0%;
+  }
+  .footer-banner-container {
+    height: 360px;
+    margin-top: 20px;
+    padding: 0;
+  }
+  .footer-banner-container .left {
+    margin-left: 15px;
+  }
+  .footer-banner-image {
+    width: 65%;
+    left: 42%;
+    top: 7%;
+    height: 50%;
+  }
+  .banner-desc .left h3 {
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 5px;
+    color: #000;
+  }
+
+  .banner-desc .left p {
+    margin: 18px;
+    color: #000;
+  }
+  .banner-desc .right h3 {
+    font-size: 40px;
+    margin-left: 15px;
+    margin-top: 25px;
+  }
+  .banner-desc .button-dark {
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  .banner-desc .right p {
+    font-size: 18px;
+    display: none;
+  }
+  .banner-desc .right .company-desc {
+    font-size: 14px;
+  }
+  .banner-desc {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .hero-banner-container {
+    line-height: 1.3;
+  }
+  .hero-banner-container h1 {
+    font-size: 30px;
+  }
+  .hero-banner-container h3 {
+    font-size: 20px;
+  }
+  .hero-banner-container button {
+    margin-top: 30px;
+    z-index: 10000;
+  }
+  .desc {
+    bottom: 32%;
   }
   .product-detail-container {
     flex-wrap: wrap;
